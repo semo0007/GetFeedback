@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">GeFee</string>
+
+    <!-- Einloggen/Regitrieren -->
+
+    <!-- TextView für GeFee -->
+    <string name="schriftzug">GeFee</string>
+
+    <!-- Inputfelder (hints) -->
+    <string name="username_hint">Benutzername</string>
+    <string name="pw_1_hint">Passwort</string>
+    <string name="pw_2_hint">Passwort wiederholen</string>
+    <string name="email_hint">E-Mail</string>
+    <!-- Buttons und Textlink -->
+    <string name="login_button">Einloggen</string>
+    <string name="register_button">Registrieren</string>
+    <string name="register_link">Noch kein Mitglied?</string>
+
+    <!-- Ende Einloggen/Registrieren -->
+
+
+</resources>

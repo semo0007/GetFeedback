@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_einloggen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="5dp"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp"
+    android:paddingTop="5dp"
+    tools:context="com.example.sebastian.gefee.Einloggen">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/schriftzug"
+        android:textSize="80dp"
+        android:layout_marginTop="35dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPersonName"
+        android:ems="10"
+        android:id="@+id/etNutzername"
+        android:layout_marginTop="250dp"
+        android:layout_below="@+id/textView2"
+        android:hint="@string/username_hint"
+        android:layout_centerHorizontal="true" />
+
+    <EditText
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:inputType="textPassword"
+        android:ems="10"
+        android:id="@+id/etPasswort"
+        android:layout_below="@+id/etNutzername"
+        android:layout_alignStart="@+id/etNutzername"
+        android:hint="@string/pw_1_hint"
+        android:layout_marginTop="15dp" />
+
+    <Button
+        android:text="@string/login_button"
+        android:layout_width="220dp"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/etPasswort"
+        android:layout_alignStart="@+id/etPasswort"
+        android:layout_marginTop="10dp"
+        android:id="@+id/login_button"
+        android:layout_alignEnd="@+id/textView2" />
+
+    <TextView
+        android:text="@string/register_link"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tvRegister"
+        android:layout_below="@+id/login_button"
+        android:layout_centerHorizontal="true" />
+
+
+</RelativeLayout>
