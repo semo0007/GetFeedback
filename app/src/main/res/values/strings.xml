@@ -14,7 +14,7 @@
     <!-- Buttons und Textlink -->
     <string name="login_button">Einloggen</string>
     <string name="register_button">Registrieren</string>
-    <string name="register_link">Noch kein Mitglied?</string>
+    <string name="register_link">Noch kein Mitglied?!</string>
 
     <!-- Ende Einloggen/Registrieren -->
 
